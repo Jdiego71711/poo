@@ -1,9 +1,13 @@
-public class HolaMundo {
+ public class HolaMundo {
 
-    public static void main (striring[]args){
-system.out.println(x:"Mi primer hola mundo en java!!!");
+    public static void main(String[] args){
+      System.out.println(x:"Mi primer hola mundo en JAVA!!");
+       //Creacion de la variable x de un entero
+       int x = 2;
+
+
+
     }
 
-//creacion de la variable x de tip entero
-int x = 2 ;
-}
+    }
+
