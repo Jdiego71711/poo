@@ -1,0 +1,309 @@
+public class Ejercicio41 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // a) Ángulo recto
+        System.out.print("Ingrese un ángulo: ");
+        int angulo = sc.nextInt();
+        if (angulo == 90) {
+            System.out.println("El ángulo es un ángulo recto");
+        } else {
+            System.out.println("El ángulo no es un ángulo recto");
+        }
+
+        // b) Temperatura
+        System.out.print("Ingrese la temperatura: ");
+        int temperatura = sc.nextInt();
+        if (temperatura > 100) {
+            System.out.println("Por encima del punto de ebullición del agua");
+        } else {
+            System.out.println("Por debajo del punto de ebullición del agua");
+        }
+
+        // c) Positivo / Negativo
+        int totalPositivos = 0, totalNegativos = 0;
+        System.out.print("Ingrese un número: ");
+        int numero = sc.nextInt();
+        if (numero > 0) {
+            totalPositivos += numero;
+        } else {
+            totalNegativos += numero;
+        }
+
+        // d) Condición con x,y,z
+        System.out.print("Ingrese x: ");
+        int x = sc.nextInt();
+        System.out.print("Ingrese y: ");
+        int y = sc.nextInt();
+        System.out.print("Ingrese z: ");
+        int z = sc.nextInt();
+        if (x > y && z < 20) {
+            System.out.print("Ingrese p: ");
+            int p = sc.nextInt();
+        }
+
+        // e) distancia
+        System.out.print("Ingrese distancia: ");
+        int distancia = sc.nextInt();
+        if (distancia > 20 && distancia < 35) {
+            System.out.print("Ingrese tiempo: ");
+            int tiempo = sc.nextInt();
+        }
+    }
+}
+
+// 4.2 ejercicio del taller 
+public class Ejercicio42 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese primer número: ");
+        int num1 = sc.nextInt();
+        System.out.print("Ingrese segundo número: ");
+        int num2 = sc.nextInt();
+
+        if (num1 > num2) {
+            System.out.println("El primer número es el mayor");
+        } else if (num1 < num2) {
+            System.out.println("El primer número es el más pequeño");
+        } else {
+            System.out.println("Ambos números son iguales");
+        }
+    }
+}
+//4.3 TALLER DEL EJERCICIO 
+
+
+public class Ejercicio43 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese tres números: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        int central;
+        if ((b > a && b < c) || (b > c && b < a)) {
+            central = b;
+        } else if ((a > b && a < c) || (a > c && a < b)) {
+            central = a;
+        } else {
+            central = c;
+        }
+
+        System.out.println("El número central es: " + central);
+    }
+}
+//clase 4.4EJERCICIO DEL TALLER 
+
+public class Ejercicio44 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese un número: ");
+        double num = sc.nextDouble();
+
+        if (num >= 0) {
+            double raiz = Math.sqrt(num);
+            System.out.println("La raíz cuadrada es: " + raiz);
+        } else {
+            System.out.println("No existe raíz real para un número negativo");
+        }
+    }
+}
+//4.5 EJERCICio
+public class Ejercicio45 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese un número: ");
+        int num = sc.nextInt();
+
+        if (num % 2 == 0) {
+            System.out.println("El número es par");
+        } else {
+            System.out.println("El número es impar");
+        }
+    }
+}
+//4.6  EJERCICIO 
+
+public class Ejercicio46 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese día: ");
+        int dia = sc.nextInt();
+        System.out.print("Ingrese mes: ");
+        int mes = sc.nextInt();
+        System.out.print("Ingrese año: ");
+        int anio = sc.nextInt();
+
+        System.out.println("La fecha es: " + dia + "/" + mes + "/" + anio);
+    }
+}
+//ejercicio 4.7
+public class Ejercicio47 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese el peso del alumno: ");
+        double peso = sc.nextDouble();
+
+        if (peso < 40) {
+            System.out.println("Alumno de menos de 40 kg");
+        } else if (peso >= 40 && peso < 50) {
+            System.out.println("Alumno entre 40 y 50 kg");
+        } else if (peso >= 50 && peso < 60) {
+            System.out.println("Alumno entre 50 y menos de 60 kg");
+        } else {
+            System.out.println("Alumno de 60 kg o más");
+        }
+    }
+}
+//4.8 ejercicio 
+public class Ejercicio48 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese primer número: ");
+        int num1 = sc.nextInt();
+        System.out.print("Ingrese segundo número: ");
+        int num2 = sc.nextInt();
+
+        if (num1 % num2 == 0) {
+            System.out.println(num1 + " es divisible por " + num2);
+        } else if (num2 % num1 == 0) {
+            System.out.println(num2 + " es divisible por " + num1);
+        } else {
+            System.out.println("Ninguno es divisible del otro");
+        }
+    }
+}
+//4.9 ejercicio 
+public class Ejercicio49 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese un ángulo: ");
+        int angulo = sc.nextInt();
+
+        if (angulo < 90) {
+            System.out.println("El ángulo es agudo");
+        } else if (angulo == 90) {
+            System.out.println("El ángulo es recto");
+        } else {
+            System.out.println("El ángulo es obtuso");
+        }
+    }
+    //4.10El sistema de calificación americano:
+//Nota ≥ 90 → A
+//80 ≤ Nota < 90 → B
+//70 ≤ Nota < 80 → C
+//60 ≤ Nota < 70 → D
+//Nota < 60 → F
+  public class Ejercicio410 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingrese la nota (0-100): ");
+        int nota = sc.nextInt();
+
+        if (nota >= 90) {
+            System.out.println("Grado A");
+        } else if (nota >= 80) {
+            System.out.println("Grado B");
+        } else if (nota >= 70) {
+            System.out.println("Grado C");
+        } else if (nota >= 60) {
+            System.out.println("Grado D");
+        } else {
+            System.out.println("Grado F");
+        }
+    }
+}
+//4.11
+public class Ejercicio411 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Menú de operaciones
+        System.out.println("Seleccione la operación:");
+        System.out.println("1. Suma");
+        System.out.println("2. Resta");
+        System.out.println("3. Multiplicación");
+        System.out.println("4. División");
+        System.out.print("Opción: ");
+        int seleccionOp = sc.nextInt();
+
+        // Leer los números
+        System.out.print("Ingrese el primer número: ");
+        double num1 = sc.nextDouble();
+        System.out.print("Ingrese el segundo número: ");
+        double num2 = sc.nextDouble();
+
+        // Ejecutar la operación
+        switch (seleccionOp) {
+            case 1:
+                System.out.println("Resultado: " + (num1 + num2));
+                break;
+            case 2:
+                System.out.println("Resultado: " + (num1 - num2));
+                break;
+            case 3:
+                System.out.println("Resultado: " + (num1 * num2));
+                break;
+            case 4:
+                if (num2 != 0) {
+                    System.out.println("Resultado: " + (num1 / num2));
+                } else {
+                    System.out.println("Error: división entre cero");
+                }
+                break;
+            default:
+                System.out.println("Opción no válida");
+        }
+    }
+}
+//4.12 ejercicio final 
+public class Ejercicio412 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Pedir los dos números reales
+        System.out.print("Ingrese el primer número: ");
+        double num1 = sc.nextDouble();
+
+        System.out.print("Ingrese el segundo número: ");
+        double num2 = sc.nextDouble();
+
+        // Pedir el código de selección
+        System.out.print("Ingrese el código de selección (1: suma, 2: multiplicación, 3: división): ");
+        int codigo = sc.nextInt();
+
+        // Procesar según el código ingresado
+        switch (codigo) {
+            case 1:
+                System.out.println("Resultado de la suma: " + (num1 + num2));
+                break;
+
+            case 2:
+                System.out.println("Resultado de la multiplicación: " + (num1 * num2));
+                break;
+
+            case 3:
+                if (num2 != 0) {
+                    System.out.println("Resultado de la división: " + (num1 / num2));
+                } else {
+                    System.out.println("Error: No se puede dividir entre cero.");
+                }
+                break;
+
+            default:
+                System.out.println("Código inválido. Debe ser 1, 2 o 3.");
+        }
+
+        sc.close();
+    }
+}

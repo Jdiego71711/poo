@@ -1,0 +1,42 @@
+public class SentenciasSi {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Ejemplo para c)
+        int[] numeros = {5, -3, 8, -2, 0};
+        int totalPositivos = 0, totalNegativos = 0;
+
+        System.out.println("Ejemplo inciso c):");
+        for (int numero : numeros) {
+            if (numero > 0) {
+                totalPositivos += numero;
+            } else {
+                totalNegativos += numero;
+            }
+            System.out.println("Número: " + numero + " | Total positivos: " + totalPositivos + " | Total negativos: " + totalNegativos);
+        }
+
+        // Ejemplo para d)
+        int x = 15, y = 10, z = 12;
+        double p = 0;
+
+        System.out.println("\nEjemplo inciso d):");
+        System.out.println("x = " + x + ", y = " + y + ", z = " + z);
+        if (x > y && z < 20) {
+            p = 3.14; // valor de ejemplo
+            System.out.println("Condición cumplida. Valor de p leído: " + p);
+        } else {
+            System.out.println("Condición NO cumplida. No se lee p.");
+        }
+
+        // Ejemplo para e)
+        double distancia = 25.5, tiempo = 0;
+
+        System.out.println("\nEjemplo inciso e):");
+        System.out.println("distancia = " + distancia);
+        if (distancia > 20 && distancia < 35) {
+            tiempo = 12.5; // valor de ejemplo
+            System.out.println("Condición cumplida. Valor de tiempo leído: " + tiempo);
+        } else {
+            System.out.println("Condición NO cumplida. No se lee tiempo.");
+        }
