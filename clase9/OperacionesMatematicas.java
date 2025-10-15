@@ -41,5 +41,27 @@ public class OperacionesMatematicas {
         }
         return resultado;
     }
+public double potencia(){
+        return Math.pow(n1, 2);
+    }
+    
+    public double cubo(){
+        return Math.pow(n2, 3);
+    }
 
+    public double n(){
+        return Math.pow(n1, n2);
+    }
+
+    public double raiz(){
+        return Math.sqrt(n1);
+    }
+
+    public double cubic(){
+        return Math.pow(n1, 1.0/3);
+    }
+
+    public double raizn(){
+        return Math.pow(n1, 1.0/n2);
+    }
 }

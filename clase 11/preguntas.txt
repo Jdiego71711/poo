@@ -1,0 +1,21 @@
+¿Qué es la encapsulación y por qué es importante en la Programación Orientada a Objetos?
+La encapsulación es un principio de la Programación Orientada a Objetos (POO) que consiste en ocultar los datos internos de un objeto y restringir el acceso directo a ellos, permitiendo su manipulación solo mediante métodos públicos (getters y setters).
+En resumen:
+La encapsulación protege los datos, controla su acceso y mejora la seguridad, mantenibilidad y confiabilidad del software.
+
+¿Qué diferencia hay entre un método y un constructor?
+Un método es una función definida dentro de una clase que describe un comportamiento o acción que los objetos de esa clase pueden realizar.
+•  Se invoca después de crear el objeto.
+•  Puede recibir parámetros y devolver valores.
+Un constructor es un método especial que se ejecuta automáticamente al crear un objeto.
+Su función principal es inicializar los atributos del objeto.
+EJ. El constructor crea e inicializa el objeto, mientras que los métodos definen las acciones que ese objeto puede realizar.
+¿Por qué los atributos deben ser privados y no públicos?
+Los atributos deben ser privados para proteger los datos internos de un objeto y mantener el principio de encapsulación en la Programación Orientada a Objetos (POO).
+¿Qué función cumplen los getters y setters?	
+Los getters y setters son métodos especiales utilizados en la Programación Orientada a Objetos  para acceder y modificar los atributos privados de una clase. 
+
+Verdadero o falso: “Un método setter no debe validar los datos que recibe.” Justifique.
+Falso, un método setter sí debe validar los datos que recibe antes de asignarlos al atributo correspondiente.
+Esto se debe a que el setter es el punto de control que protege el estado interno del objeto.
+Si no valida los datos, el objeto podría quedar en un estado inconsistente o inválido, violando el principio de encapsulación.

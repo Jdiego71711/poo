@@ -36,17 +36,6 @@ public class Persona {
     public String estudiar(String carrera){
         return "Usted está estudiando: " + carrera;
     }
-    public int getEdad(){
-        return edad;
-    }
-
-    public void setEdad(int edad) {
-        if (edad >= 0 && edad < 100) {
-            this.edad = edad;
-        } else {
-            System.out.println("edad invalida");
-        }
-    }
 
     //Tarea consultar sobre el método toString.
     

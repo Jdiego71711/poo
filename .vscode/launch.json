@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "principal",
+            "request": "launch",
+            "mainClass": "principal",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "mai",
+            "request": "launch",
+            "mainClass": "mai",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "CuentaBancaria",
+            "request": "launch",
+            "mainClass": "CuentaBancaria",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "Producto",
+            "request": "launch",
+            "mainClass": "Producto",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "Expresiones",
+            "request": "launch",
+            "mainClass": "Expresiones",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "EjecutarOpeMat",
+            "request": "launch",
+            "mainClass": "EjecutarOpeMat",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
             "name": "EjecutarOpeMatGrupo2",
             "request": "launch",
             "mainClass": "EjecutarOpeMatGrupo2",
