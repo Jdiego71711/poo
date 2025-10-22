@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SupermarketPortfolioFull",
+            "request": "launch",
+            "mainClass": "SupermarketPortfolioFull",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "SupermarketPortfolioInteractive",
+            "request": "launch",
+            "mainClass": "SupermarketPortfolioInteractive",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "SupermarketPortfolio",
+            "request": "launch",
+            "mainClass": "SupermarketPortfolio",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "EjecutarHerenciaAnimal",
+            "request": "launch",
+            "mainClass": "EjecutarHerenciaAnimal",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
             "name": "principal",
             "request": "launch",
             "mainClass": "principal",
