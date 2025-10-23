@@ -45,7 +45,7 @@ public class SupermarketPortfolioFull {
             try {
                 option = Integer.parseInt(input.nextLine());
             } catch (NumberFormatException e) {
-                System.out.println("⚠️ Ingrese un número válido.");
+                System.out.println(" Ingrese un número válido.");
                 continue;
             }
 
@@ -58,21 +58,21 @@ public class SupermarketPortfolioFull {
                     System.out.print("Ingrese el nombre o descripción del nuevo proyecto: ");
                     String project = input.nextLine();
                     projects.add(project);
-                    System.out.println("✅ Proyecto agregado correctamente.");
+                    System.out.println(" Proyecto agregado correctamente.");
                     break;
 
                 case 3:
                     System.out.print("Ingrese una nueva categoría de producto: ");
                     String category = input.nextLine();
                     categories.add(category);
-                    System.out.println("✅ Categoría agregada correctamente.");
+                    System.out.println(" Categoría agregada correctamente.");
                     break;
 
                 case 4:
                     System.out.print("Ingrese una nueva tecnología utilizada: ");
                     String tech = input.nextLine();
                     technologies.add(tech);
-                    System.out.println("✅ Tecnología agregada correctamente.");
+                    System.out.println(" Tecnología agregada correctamente.");
                     break;
 
                 case 5:
@@ -80,16 +80,16 @@ public class SupermarketPortfolioFull {
                     developer = input.nextLine();
                     System.out.print("Nueva descripción: ");
                     description = input.nextLine();
-                    System.out.println("✅ Datos del portafolio actualizados.");
+                    System.out.println(" Datos del portafolio actualizados.");
                     break;
 
                 case 6:
                     running = false;
-                    System.out.println("👋 Saliendo del programa... ¡Gracias!");
+                    System.out.println(" Saliendo del programa... ¡Gracias!");
                     break;
 
                 default:
-                    System.out.println("⚠️ Opción no válida. Intente nuevamente.");
+                    System.out.println(" Opción no válida. Intente nuevamente.");
             }
         }
 
@@ -106,7 +106,7 @@ public class SupermarketPortfolioFull {
         System.out.println(description);
         System.out.println("======================================\n");
 
-        System.out.println("📦 PROYECTOS DESTACADOS:");
+        System.out.println(" PROYECTOS DESTACADOS:");
         if (projects.isEmpty()) {
             System.out.println(" (No hay proyectos registrados)");
         } else {
@@ -115,7 +115,7 @@ public class SupermarketPortfolioFull {
             }
         }
 
-        System.out.println("\n🛒 CATEGORÍAS DE PRODUCTOS:");
+        System.out.println("\n CATEGORÍAS DE PRODUCTOS:");
         if (categories.isEmpty()) {
             System.out.println(" (No hay categorías registradas)");
         } else {
@@ -124,7 +124,7 @@ public class SupermarketPortfolioFull {
             }
         }
 
-        System.out.println("\n🛠 TECNOLOGÍAS UTILIZADAS:");
+        System.out.println("\n TECNOLOGÍAS UTILIZADAS:");
         if (technologies.isEmpty()) {
             System.out.println(" (No hay tecnologías registradas)");
         } else {
@@ -133,7 +133,7 @@ public class SupermarketPortfolioFull {
             }
         }
 
-        System.out.println("\n📞 CONTACTO:");
+        System.out.println("\n CONTACTO:");
         System.out.println("Email: contacto@" + developer.toLowerCase().replace(" ", "") + ".com");
         System.out.println("======================================\n");
     }

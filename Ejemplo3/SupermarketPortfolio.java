@@ -37,22 +37,22 @@ public class SupermarketPortfolio {
         System.out.println(description);
         System.out.println("======================================\n");
 
-        System.out.println("📦 Proyectos destacados:");
+        System.out.println(" Proyectos destacados:");
         for (int i = 0; i < projects.size(); i++) {
             System.out.println((i+1) + ". " + projects.get(i));
         }
 
-        System.out.println("\n🛒 Categorías de productos:");
+        System.out.println("\n Categorías de productos:");
         for (String category : categories) {
             System.out.println("- " + category);
         }
 
-        System.out.println("\n🛠 Tecnologías utilizadas:");
+        System.out.println("\n Tecnologías utilizadas:");
         for (String tech : technologies) {
             System.out.println("- " + tech);
         }
 
-        System.out.println("\n📞 Contacto:");
+        System.out.println("\n Contacto:");
         System.out.println("Email: superdev@example.com");
         System.out.println("======================================");
     }
