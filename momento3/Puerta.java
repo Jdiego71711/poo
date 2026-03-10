@@ -22,4 +22,9 @@ public class Puerta {
     public boolean estaAbierta() {
         return abierta;
     }
+
+    public void iniciar() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'iniciar'");
+    }
 }

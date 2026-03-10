@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ejec",
+            "request": "launch",
+            "mainClass": "ejec",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "EjecutarSistema",
+            "request": "launch",
+            "mainClass": "EjecutarSistema",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "EjecutarMoto",
+            "request": "launch",
+            "mainClass": "EjecutarMoto",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
             "name": "ejercicios",
             "request": "launch",
             "mainClass": "ejercicios",

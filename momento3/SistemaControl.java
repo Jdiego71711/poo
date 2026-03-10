@@ -71,4 +71,9 @@ public class SistemaControl {
         ascensor.mover(destino);
         puertaAscensor.abrir();
     }
+
+    public void iniciar() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'iniciar'");
+    }
 }

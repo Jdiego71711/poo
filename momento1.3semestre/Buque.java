@@ -1,0 +1,13 @@
+public class Buque {
+
+    private String nombre;
+
+    public Buque(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+}
