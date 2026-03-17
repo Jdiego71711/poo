@@ -8,6 +8,20 @@
             "type": "java",
             "name": "ejec",
             "request": "launch",
+            "mainClass": "momento3semestre.ejec",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "ejec",
+            "request": "launch",
+            "mainClass": "semana3.ejec",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "ejec",
+            "request": "launch",
             "mainClass": "ejec",
             "projectName": "poo_aff1c92e"
         },
