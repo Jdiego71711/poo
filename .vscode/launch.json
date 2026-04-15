@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DataBay",
+            "request": "launch",
+            "mainClass": "momento2.DataBay",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio10_3",
+            "request": "launch",
+            "mainClass": "Ejercicio10_3",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio9_4",
+            "request": "launch",
+            "mainClass": "Ejercicio9_4",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "Balanceo",
+            "request": "launch",
+            "mainClass": "Balanceo",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio10_6",
+            "request": "launch",
+            "mainClass": "Ejercicio10_6",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "BicolaLista",
+            "request": "launch",
+            "mainClass": "BicolaLista",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "ColaCircular",
+            "request": "launch",
+            "mainClass": "ColaCircular",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "PilaLista",
+            "request": "launch",
+            "mainClass": "PilaLista",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "PilaVector",
+            "request": "launch",
+            "mainClass": "PilaVector",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "ExplicacionPila",
+            "request": "launch",
+            "mainClass": "ExplicacionPila",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "explicacionpila",
+            "request": "launch",
+            "mainClass": "explicacionpila",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
             "name": "ejec",
             "request": "launch",
             "mainClass": "momento3semestre.ejec",
