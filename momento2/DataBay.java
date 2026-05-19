@@ -7,9 +7,6 @@ public class DataBay {
     public static void main(String[] args) {
 
         try (Scanner sc = new Scanner(System.in)) {
-            // =========================
-            // MÓDULO 1: MANIFIESTO
-            // =========================
             Contenedor[] manifiesto = new Contenedor[5];
             double pesoTotal = 0;
 
@@ -34,9 +31,6 @@ public class DataBay {
 
             System.out.println("\nPeso total de carga: " + pesoTotal);
 
-            // =========================
-            // MÓDULO 2: MATRIZ (PATIO)
-            // =========================
             Contenedor[][] patio = new Contenedor[3][3];
 
             System.out.println("\n=== UBICACIÓN EN PATIO ===");
@@ -61,10 +55,6 @@ public class DataBay {
                     System.out.println("⚠ Puerto Saturado");
                 }
             }
-
-            // =========================
-            // MÓDULO 3: COLA (FIFO)
-            // =========================
             Queue<Contenedor> inspeccion = new LinkedList<>();
 
             for (Contenedor c : manifiesto) {
@@ -78,10 +68,6 @@ public class DataBay {
             while (!inspeccion.isEmpty()) {
                 System.out.println("Revisando: " + inspeccion.poll());
             }
-
-            // =========================
-            // MÓDULO 4: PILA (LIFO)
-            // =========================
             Stack<Contenedor> buque = new Stack<>();
 
             System.out.println("\n=== CARGA EN BUQUE ===");
@@ -95,15 +81,9 @@ public class DataBay {
             for (Contenedor c : buque) {
                 System.out.println(c);
             }
-
-            // Ejemplo de uso de pila auxiliar (contendor dañado)
             retirarContenedorDanado(buque, "C2");
         }
     }
-
-    // =========================
-    // BONUS: RESTRICCIÓN DE PESO
-    // =========================
     public static void apilarConRestriccion(Stack<Contenedor> buque, Contenedor nuevo) {
 
         if (buque.isEmpty()) {
@@ -120,10 +100,6 @@ public class DataBay {
             }
         }
     }
-
-    // =========================
-    // PILA AUXILIAR (RETO)
-    // =========================
     public static void retirarContenedorDanado(Stack<Contenedor> buque, String idDanado) {
 
         Stack<Contenedor> auxiliar = new Stack<>();

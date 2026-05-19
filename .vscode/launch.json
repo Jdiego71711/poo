@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MenuConsola",
+            "request": "launch",
+            "mainClass": "universidad.model.MenuConsola",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "MenuConsola",
+            "request": "launch",
+            "mainClass": "momento3.MenuConsola",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "SistemaUniversitarioApplication",
+            "request": "launch",
+            "mainClass": "momento3.SistemaUniversitarioApplication",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "SistemaPedidos",
+            "request": "launch",
+            "mainClass": "SistemaPedidos",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "HistorialNavegacion",
+            "request": "launch",
+            "mainClass": "HistorialNavegacion",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "DirectorioProductos",
+            "request": "launch",
+            "mainClass": "DirectorioProductos",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "PracticaLinkedListMap",
+            "request": "launch",
+            "mainClass": "PracticaLinkedListMap",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
+            "name": "EjerciciosEstructuras",
+            "request": "launch",
+            "mainClass": "EjerciciosEstructuras",
+            "projectName": "poo_aff1c92e"
+        },
+        {
+            "type": "java",
             "name": "DataBay",
             "request": "launch",
             "mainClass": "momento2.DataBay",
